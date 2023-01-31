@@ -4,7 +4,7 @@ class Produto:
         self.preço = preço
         self.tipo = tipo
 
-
+produto = Produto('Pizza', 5.0, 'Portuguesa')
 
 
 
