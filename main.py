@@ -4,11 +4,12 @@ class Produto:
         self.preço = preço
         self.tipo = tipo
 
+    def exibir(self):
+        print(f'Nome: {self.nome} - Preço: {self.preço}')
+    
+
 produto = Produto('Pizza', 5.0, 'Portuguesa')
-
-
-
-
 quantidade = int(input('Informe a quantidade: '))
 print(quantidade)
+
 
