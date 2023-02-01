@@ -11,6 +11,6 @@ class Produto:
 produto = Produto('Pizza', 5.0, 'Portuguesa')
 produto.exibir()
 quantidade = int(input('Informe a quantidade: '))
-print(quantidade)
+
 
 
