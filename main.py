@@ -5,7 +5,7 @@ class Produto:
         self.tipo = tipo
 
     def exibir(self):
-        print(f'Nome: {self.nome} - Preço: {self.preço}')
+        print(f'Nome: {self.nome} - Preço: {self.preço} - Tipo: {self.tipo}')
     
 
 produto = Produto('Pizza', 5.0, 'Portuguesa')
